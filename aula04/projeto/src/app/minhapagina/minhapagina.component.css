@@ -1,0 +1,35 @@
+/*Sumir com a marcação da lista 
+Deixar as linhas lado a lado
+Deixar o header com 30 px de altura
+*/
+
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(100, 29, 167, 0.418);
+    height: 30px;
+    column-gap: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+li {
+    background-color: #7e14a857;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+li:hover {
+    background-color: #47016357;
+    border-radius: 20px;
+    padding: 5px;
+
+}
