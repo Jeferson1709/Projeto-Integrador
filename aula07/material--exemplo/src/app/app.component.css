@@ -1,0 +1,25 @@
+.spacer{
+    flex: 1 1 auto;
+}
+
+.link{ 
+    display: flex;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+}
+.example-h2 {
+    margin: 10px;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .example-margin {
+    margin: 10px;
+  }
